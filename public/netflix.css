@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*position: absolute;*/
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.8) 100%), url(/img/VN-vi-20230403-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    font-family: Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.logo{
+    margin-top: 0px;
+    margin-left: 33px;
+    width: 200px;
+}
+.logo img {
+    width: 100%;
+}
+
+.header {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    
+}
+.header .login_body{
+    background: rgba(0, 0, 0, 0.81);
+    width: 450px;
+    height: 670px;
+    position: absolute;
+    top: 80%;
+    left: 33.3%;
+    border-radius: 10px;
+
+}
+.login_body .login_box{
+    padding: 60px;
+    margin-bottom: 113px;
+        
+}
+
+.login_body h2 {
+    /* position: absolute; */
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    font-style: normal;
+    color: #fff;
+}
+
+.login_body input { 
+    height: 50px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 22px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.login_body input:hover {
+    background-color: #444;
+}
+
+.login_body button { 
+    /* position: absolute; */
+    height: 50px;
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 14px;
+    color: #fff;
+    background-color: #e50914;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.login_body button:hover {
+    background-color: #fc1722;
+    cursor: pointer;
+}
+
+.support {
+    display: flex;
+    color: #b3b3b3;
+    justify-content: space-between;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.support input {
+    width: 16px;
+    height: 16px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+}
+.remember span{
+    margin-left: 8px;
+    color: #B3B3B3;
+}
+.remember input{
+    margin: 0;
+    padding: 0; 
+    height: 16px;
+}
+.remember input[type=checkbox]:checked + label:before{
+    background: #737373;
+}
+.remember input[type=checkbox]:checked + label:after{
+    color: #000;
+}
+
+.help a {
+    text-decoration: none;
+    color: #B3B3B3;
+}
+
+.help a:hover {
+    text-decoration: underline;
+}
+
+.sign_up {
+    margin-top: 72px;
+    color: #737373;
+    font-size: 16px;
+}
+
+.sign_up a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sign_up a:hover {
+    text-decoration: underline;
+}
+
+.terms {
+    color: #737373;
+    font-size: 13px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: #0071eb;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: absolute;
+    z-index: auto;
+    width: 100%;
+    height: 274px;
+    background: rgba(0, 0, 0, 0.75);
+    left: 0px;
+    top: 866px;
+    
+}
+.footer .language-btn{
+    display: inline-block;
+}
+.footer select{
+    background: transparent;
+    height: 48.09px;
+    width: 148px;
+    color: #B3B3B3;
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-left: 46px;
+    border-radius: 4px;
+    margin-left: 191px;
+    margin-top: 38px;
+}
+.footer h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /*line-height: 19px;*/
+    color: #B3B3B3;    
+    margin-top: 54px;
+    margin-left: 199px;
+}
+.global{
+    position: absolute;
+    margin-top: 52px;
+    margin-left: 207px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    line-height: 40px;
+    margin-top: 15px;
+    margin-left: 199px;
+}
+.row a{
+    color: #737373;
+}
